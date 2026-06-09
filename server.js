@@ -39,7 +39,7 @@ h1{
 <body>
 <div class="card">
     <h1>GitHub Actions CI/CD</h1>
-    <p>Deployment Successful 🚀</p>
+    <p>Deployment Successful V1 🚀</p>
     <p>Node.js running on server</p>
 </div>
 </body>
