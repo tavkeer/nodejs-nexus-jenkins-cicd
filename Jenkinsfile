@@ -88,6 +88,19 @@ pipeline {
             }
         }
 
+        stage('Verify Deployment') {
+            steps {
+
+                echo 'Verifying deployment...'
+
+                sh """
+                    sleep 10
+
+                    curl -f http://13.235.86.51:3000/api/health
+                """
+            }
+        }
+    }
 
     post {
 
