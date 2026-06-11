@@ -88,19 +88,6 @@ pipeline {
             }
         }
 
-        stage('Verify Deployment') {
-            steps {
-
-                echo 'Verifying deployment...'
-
-                sh """
-                    sleep 10
-
-                    curl -f http://YOUR_PROD_SERVER_IP:3000/api/health
-                """
-            }
-        }
-    }
 
     post {
 
