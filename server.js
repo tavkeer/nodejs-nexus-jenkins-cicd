@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 const PORT = 3000;
-
+simple - node - app
 app.get("/", (req, res) => {
   res.send(`
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ h1{
 
 <body>
 <div class="card">
-    <h1>GitHub Actions CI/CD</h1>
+    <h1>Jenkins CI/CD</h1>
     <p>Deployment Successful V3 🚀</p>
     <p>Node.js running on server</p>
 </div>
